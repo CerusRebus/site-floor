@@ -1,0 +1,397 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@2.4.21/dist/css/splide.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
+    <title>Plantku Shop</title>
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="icon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="icon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="icon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="icon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="icon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="icon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="icon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="icon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="icon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="icon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="icon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="icon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="icon/favicon-16x16.png">
+    <link rel="manifest" href="icon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="icon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+  </head>
+  <body>
+    <div class="container-lg p-0 p-lg-auto">
+      <!--  -->
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-lg">
+          <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="Здесь должна быть картинка"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fas fa-bars"></i>
+          </button>
+          <div class="collapse navbar-collapse p-4 p-lg-0" id="navbarNav">
+            <ul class="navbar-nav ms-auto text-center text-lg-end">
+              <li class="nav-item">
+                <span class="nav-link me-0 me-lg-4"><i class="fas fa-search"></i></span>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link me-0 me-lg-2" href="#"><i class="fas fa-shopping-cart"></i></a>
+              </li>
+              <li class="nav-item">
+                <button class="btn btn-plant" type="button" name="sign_up" data-bs-toggle="modal" data-bs-target="#Sign_up">Sign up</button>
+              </li>
+              <li class="nav-item">
+                <button type="button" class="btn btn-plant btn-plant-color" name="sign-in" data-bs-toggle="modal" data-bs-target="#Sign_in">Sign in</button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <!--  -->
+    <header>
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="row align-items-start align-items-lg-center">
+              <div class="col-12 col-lg-5 p-0">
+                <img src="images/1.png" class="d-block w-100" alt="Здесь должна быть картинка">
+              </div>
+              <div class="col-12 col-lg-7 text-plant">
+                <h3 class="color-green mb-3">Kembang Flower Mantap</h3>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row align-items-start align-items-lg-center">
+              <div class="col-12 col-lg-5 p-0">
+                <img src="images/1.png" class="d-block w-100" alt="Здесь должна быть картинка">
+              </div>
+              <div class="col-12 col-lg-7 text-plant">
+                <h3 class="color-green mb-3">Kembang Flower Mantap</h3>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row align-items-start align-items-lg-center">
+              <div class="col-12 col-lg-5 p-0">
+                <img src="images/1.png" class="d-block w-100" alt="Здесь должна быть картинка">
+              </div>
+              <div class="col-12 col-lg-7 text-plant">
+                <h3 class="color-green mb-3">Kembang Flower Mantap</h3>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="d-flex">
+          <button class="carousel-control-prev btn btn-plant" type="button" data-bs-target="#carouselExampleControls"  data-bs-slide="prev">
+            <span class="d-block mb-3">
+              <i class="fas fa-arrow-left"></i>
+              <span class="ms-2 direction">Previous</span>
+            </span>
+              <span class="name-plant">Kaktus Plant</span>
+            </button>
+            <button class="carousel-control-next btn btn-plant btn-plant-color" type="button" data-bs-target="#carouselExampleControls"  data-bs-slide="next">
+            <span class="d-block mb-3">
+              <span class="me-2 direction">Next</span>
+              <i class="fas fa-arrow-right"></i>
+            </span>
+              <span class="name-plant">Rahasia Plant</span>
+            </button>
+          </div>
+        </div>
+    </header>
+    <main>
+      <section id="services">
+        <div class="d-flex justify-content-around justify-content-xl-between row pb-3 pb-lg-5">
+          <div class="card">
+            <div class="d-flex align-items-center ps-3 pb-3">
+              <img src="images/car.svg"  alt="Здесь должна быть картинка">
+              <span class="ps-3 fw-bold fs-6">Fast <br>
+                                     Delivery</span>
+            </div>
+            <div class="">
+              <p class="px-3" >Lorem Ipsum is simply dummy text of the
+                 printing and typesetting industry. Lorem
+                 Ipsum has been the industry's standard</p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="d-flex align-items-center ps-3 pb-3">
+              <img src="images/headphones.svg"  alt="Здесь должна быть картинка">
+              <span class="ps-3 fw-bold fs-6">Great Customer<br>
+                                              Service</span>
+            </div>
+            <div class="">
+              <p class="px-3" >Lorem Ipsum is simply dummy text of the
+                 printing and typesetting industry. Lorem
+                 Ipsum has been the industry's standard</p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="d-flex align-items-center ps-3 pb-3">
+              <img src="images/plant-1.svg"  alt="Здесь должна быть картинка">
+              <span class="ps-3 fw-bold fs-6">Original<br>
+                                              Plants</span>
+            </div>
+            <div class="">
+              <p class="px-3" >Lorem Ipsum is simply dummy text of the
+                 printing and typesetting industry. Lorem
+                 Ipsum has been the industry's standard</p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="d-flex align-items-center ps-3 pb-3">
+              <img src="images/dollar-symbol.svg"  alt="Здесь должна быть картинка">
+              <span class="ps-3 fw-bold fs-6">Affordable<br>
+                                     Price</span>
+            </div>
+            <div class="">
+              <p class="px-3" >Lorem Ipsum is simply dummy text of the
+                 printing and typesetting industry. Lorem
+                 Ipsum has been the industry's standard</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="products">
+        <div class="d-flex justify-content-between align-items-center mb-4">
+          <span>Featured Plants</span>
+          <select class="" name="">
+            <option value="">Cheaper First</option>
+          </select>
+        </div>
+        <div class="splide" id="splide_product">
+          <div class="splide__track">
+        		<ul class="splide__list">
+        			<li class="splide__slide">
+                <div class="card">
+                  <img src="images/plant1.png" alt="Здесь должна быть картинка">
+                  <h5 class="text-center mt-3">Kaktus Plants</h5>
+                  <span class="text-center fw-bold">IDR 85.000</span>
+                </div>
+              </li>
+              <li class="splide__slide">
+                <div class="card">
+                  <img src="images/plant2.png" alt="Здесь должна быть картинка">
+                  <h5 class="text-center mt-3">Landak Plants</h5>
+                  <span class="text-center fw-bold">IDR 85.000</span>
+                </div>
+              </li>
+              <li class="splide__slide">
+                <div class="card">
+                  <img src="images/plant3.png" alt="Здесь должна быть картинка">
+                  <h5 class="text-center mt-3">Kecubung Plants</h5>
+                  <span class="text-center fw-bold">IDR 85.000</span>
+                </div>
+              </li>
+              <li class="splide__slide">
+                <div class="card">
+                  <img src="images/plant4.png" alt="Здесь должна быть картинка">
+                  <h5 class="text-center mt-3">Kecubung Plants</h5>
+                  <span class="text-center fw-bold">IDR 85.000</span>
+                </div>
+              </li>
+              <li class="splide__slide">
+                <div class="card">
+                  <img src="images/plant5.png" alt="Здесь должна быть картинка">
+                  <h5 class="text-center mt-3">Kecubung Plants</h5>
+                  <span class="text-center fw-bold">IDR 85.000</span>
+                </div>
+              </li>
+              <li class="splide__slide">
+                <div class="card">
+                  <img src="images/plant1.png" alt="Здесь должна быть картинка">
+                  <h5 class="text-center mt-3">Kaktus Plants</h5>
+                  <span class="text-center fw-bold">IDR 85.000</span>
+                </div>
+              </li>
+              <li class="splide__slide">
+                <div class="card">
+                  <img src="images/plant2.png" alt="Здесь должна быть картинка">
+                  <h5 class="text-center mt-3">Landak Plants</h5>
+                  <span class="text-center fw-bold">IDR 85.000</span>
+                </div>
+              </li>
+              <li class="splide__slide">
+                <div class="card">
+                  <img src="images/plant3.png" alt="Здесь должна быть картинка">
+                  <h5 class="text-center mt-3">Kecubung Plants</h5>
+                  <span class="text-center fw-bold">IDR 85.000</span>
+                </div>
+              </li>
+              <li class="splide__slide">
+                <div class="card">
+                  <img src="images/plant4.png" alt="Здесь должна быть картинка">
+                  <h5 class="text-center mt-3">Kecubung Plants</h5>
+                  <span class="text-center fw-bold">IDR 85.000</span>
+                </div>
+              </li>
+              <li class="splide__slide">
+                <div class="card">
+                  <img src="images/plant5.png" alt="Здесь должна быть картинка">
+                  <h5 class="text-center mt-3">Kecubung Plants</h5>
+                  <span class="text-center fw-bold">IDR 85.000</span>
+                </div>
+              </li>
+        		</ul>
+          </div>
+        </div>
+      </section>
+      <section id="purchase">
+        <div class="row mt-xl-5">
+          <div class="d-sm-flex flex-sm-column col-12 col-lg-6 pe-0">
+            <div class="text">
+              <h1 class="fw-bold text-center text-md-start my-3 heading">Buy more plants, it
+                  helps you to be relaxed</h1>
+              <p class="m-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
+                 gravida gravida aliquam. Pellentesque et lobortis nisl. Sed et
+                 mauris justo. Nulla eu enim non mauris maximus dignissim.
+                 Maecenas vitae eros sapien. Quisque pellentesque tempus
+                 dignissim.</p>
+            </div>
+            <img src="images/3.png" class="img-fluid" alt="Здесь должна быть картинка">
+          </div>
+          <div class="d-none d-lg-block pt-sm-5 pt-xl-0 col-12 col-lg-6">
+            <img src="images/2.png" class="img-fluid float-end" alt="Здесь должна быть картинка">
+          </div>
+        </div>
+      </section>
+      <section id="get-plant">
+        <div class="row mt-xl-5">
+          <div class="col-12 col-md-8 pe-2">
+            <div class="block mb-2 mb-lg-0">
+              <h1 class="fw-bold text-center text-md-start pb-2 mb-4 heading">Get your favourites plant on our shop now</h1>
+              <button class="w-md-100" type="button" name="button"><a class="fw-bold" href="">Visit Shop</a></button>
+            </div>
+          </div>
+            <div class="d-flex justify-content-center col-12 col-md-4 ps-0 pe-0">
+            <img src="images/4.png" class="img-fluid float-sm-end" alt="Здесь должна быть картинка">
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="pt-xl-5">
+      <div class="d-flex flex-column flex-lg-row">
+        <div class="col-lg-4 order-4 order-lg-0 ps-0 pe-0 pe-xl-5">
+          <span class="d-block pt-4 pt-lg-0 pb-2 pb-lg-4">plantku</span>
+          <span class="style-footer-heading">Plantku House</span>
+          <p class="m-0">Jl. Laksda Adisucipto No.51, Demangan, Kec.
+             Depok, Kota Yogyakarta, Daerah Istimewa
+             Yogyakarta 55282</p>
+        </div>
+        <div class="col-lg-2 pe-lg-0 pe-xl-0 pe-xxl-5 footer-layout">
+          <span><a class="style-footer-heading" href="#">Perusahaan</a></span>
+          <span class="d-block footer-layot-a"><a style="font-size:14px;" href="#">Tentang Kami</a></span>
+          <span><a style="font-size:14px;" href="#">Hubungi Kami</a></span>
+        </div>
+        <div class="col-lg-2 pt-3 pt-lg-0 pe-lg-0 pe-xl-4 pe-xxl-5 footer-layout">
+          <span><a class="style-footer-heading" href="#">Produk</a></span>
+          <span class="d-block footer-layot-a"><a style="font-size:14px;" href="#">Tanaman</a></span>
+          <span><a style="font-size:14px;" href="#">Tanaman Lain</a></span>
+        </div>
+        <div class="col-lg-4 pt-3 pt-lg-0 pe-0 footer-layout">
+          <form class="form" action="index.html" method="post">
+            <label class="style-footer-heading" for="" style="line-height:16px;">Berlangganan Email Kami</label>
+            <input class="d-block py-2" type="email" name="" value="" placeholder="Masukan Alamat Email">
+            <input class="py-1" type="submit" name="" value="Submit">
+          </form>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+    <!-- Modal Sign_in-->
+
+    <div class="modal fade" id="Sign_in" tabindex="-1" aria-labelledby="sign_in" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+        <button type="button" class="btn close-btn" data-bs-dismiss="modal" aria-label="Close"><i class="fas fa-times"></i></button>
+          <div class="container">
+            <div class="row modal-height align-items-center">
+              <div class="d-none d-md-block col-0 col-md-5 p-0">
+                <img src="images/modal.png" class="w-100" alt="Здесь должна быть картинка">
+              </div>
+              <div class="col-12 col-md-7 text-center bg-pattern">
+                <div class="text-center form-block w-100">
+                  <h5 class="modal-title color-green" id="sign_in">Sign In</h5>
+                  <form class="" method="post">
+                    <div class="form-floating mt-4 mb-4">
+                      <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                      <label for="floatingInput">Email address</label>
+                    </div>
+                    <div class="form-floating mb-4">
+                      <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                      <label for="floatingPassword">Password</label>
+                    </div>
+                    <input type="submit" name="sign_in" value="Sign in" class="btn btn-plant btn-plant-color w-100">
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal Sign_up-->
+
+    <div class="modal fade" id="Sign_up" tabindex="-1">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+        <button type="button" class="btn close-btn" data-bs-dismiss="modal" aria-label="Close"><i class="fas fa-times"></i></button>
+          <div class="container">
+            <div class="row modal-height align-items-center">
+              <div class="d-none d-md-block col-0 col-md-5 p-0">
+                <img src="images/modal.png" class="w-100" alt="Здесь должна быть картинка">
+              </div>
+              <div class="col-12 col-md-7 text-center bg-pattern">
+                <div class="text-center form-block w-100">
+                  <h5 class="modal-title color-green">Sign Up</h5>
+                  <form class="" method="post">
+                    <div class="form-floating mt-3 mb-3">
+                      <input type="email" class="form-control" id="floatingInput2" placeholder="name@example.com">
+                      <label for="floatingInput2">Email address</label>
+                    </div>
+                    <div class="form-floating mb-3">
+                      <input type="password" class="form-control" id="floatingPassword2" placeholder="Password">
+                      <label for="floatingPassword2">Password</label>
+                    </div>
+                    <div class="form-floating mb-3">
+                      <input type="password" class="form-control" id="floatingConfirmPassword2" placeholder="Password">
+                      <label for="floatingConfirmPassword2">Confrim Password</label>
+                    </div>
+                    <input type="submit" name="sign_up" value="Sign up" class="btn btn-plant btn-plant-color w-100">
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Java Script -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@2.4.21/dist/js/splide.min.js"></script>
+    <script>
+      new Splide( '#splide_product', {
+        autoWidth: true,
+        type: "loop",
+        arrows: false,
+        focus: "center",
+        pagination: false,
+      }).mount();
+    </script>
+  </body>
+</html>
