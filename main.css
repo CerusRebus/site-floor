@@ -9,6 +9,9 @@
     --white-text: #FFF;
     --black-text: #333;
 }
+.row{
+  --bs-gutter-x: 0;
+}
 @media screen and (min-width:1200px){
   .container{
     max-width: 1180px;
@@ -60,6 +63,7 @@
   color: var(--white-text);
   background-color: var(--primary-color);
 }
+
 /* Modal */
 
 .modal-dialog{
@@ -131,10 +135,6 @@
 
 /* Header */
 
-header{
-  margin-left: -14px;
-  margin-right: -14px;
-}
 .carousel-item img{
   object-fit: cover;
   object-position: center;
@@ -242,8 +242,6 @@ header{
 
 /* section 2 */
 
-@media screen and (min-width:992px) {
-}
 #products .d-flex{
   padding-bottom: 20px;
   border-bottom: 1px solid #E0E0E0;
@@ -277,17 +275,10 @@ header{
 .splide{
   padding-bottom: 32px;
 }
+
 /* section 3 */
-@media screen and (min-width: 991px) {
- #purchase{
-   margin-left: -14px;
-   margin-right: -14px;
- }
-}
-#services,  #products , #get-plant{
-   margin-left: -14px;
-   margin-right: -14px;
- }
+
+
 @media screen and (min-width: 992px) {
   /*  */
   #purchase .text{
@@ -344,13 +335,13 @@ header{
 }
 @media screen and (max-width:991px){
   #get-plant .block{
-    margin: 10px 0px 0px 20px;
+    margin: 10px 20px 0px 20px;
   }
 }
 @media screen and (min-width:768px) {
   #get-plant h1{
     max-width: 585px;
-    /* text-align: left; */
+    text-align: left;
   }
   #get-plant button{
     width: 152px;
@@ -358,7 +349,7 @@ header{
 }
 @media screen and (max-width:767px) {
   #get-plant button{
-    width: 98%;
+    width: 100%;
   }
 }
 #get-plant h1{
