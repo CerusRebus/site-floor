@@ -1,0 +1,71 @@
+.modal-dialog{
+  max-width: 700px;
+  .row{
+    --bs-gutter-x: 1.5rem;
+  }
+  .modal-content{
+    position: relative;
+    border: none;
+    border-radius: 0px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    .close-btn{
+      font-size: 24px;
+      position: absolute;
+      right: 15px;
+      top: 15px;
+      color: $primary-color;
+      border: none;
+      transition: .5s;
+      &:hover{
+        color: $primary-color-hover;
+      }
+    }
+    .modal-height{
+      min-height: 500px;
+    }
+    .bg-pattern{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: inherit;
+      background: url("../images/pattern.png")
+    }
+    .modal-title{
+      font-size: 36px;
+      font-weight: bold;
+    }
+    img{
+      min-height: 500px;
+      object-fit: cover;
+      object-position: center;
+    }
+  }
+  .form-block{
+    padding: 0px 50px;
+  }
+  @media screen and (max-width: 767px) {
+    &{
+      max-width: 300px;
+      margin: auto;
+    }
+    .form-block{
+      padding: 0px 25px;
+    }
+  }
+}
+
+/* Form */
+
+.form-floating {
+  & > .form-control{
+    height: 45px;
+    padding: 0px 12px 5px 12px;
+    border-radius: 0;
+  }
+  & > label{
+    padding: .65rem .75rem;
+  }
+}
+.form-floating>.form-control:focus~label, .form-floating>.form-control:not(:placeholder-shown)~label, .form-floating>.form-select~label{
+  transform: scale(.65) translateY(-0.5) translateX(0.25rem);
+}
